@@ -21,12 +21,20 @@ export function ExperienceSection() {
 
   const education = [
     {
+      degree: "Master of Science",
+      field: "Computer Science",
+      institution: "University of Illinois at Chicago",
+      location: "Chicago, USA",
+      duration: "August 2025 - May 2027",
+      grade: "CGPA: 9.02/10",
+    },
+    {
       degree: "Bachelor of Engineering",
       field: "Information Science and Engineering",
       institution: "Global Academy of Technology",
       location: "Bangalore, India",
       duration: "December 2021 - July 2025",
-      grade: "CGPA: 9.02",
+      grade: "CGPA: 9.02/10",
     },
   ]
 
@@ -107,7 +115,8 @@ export function ExperienceSection() {
                       <CalendarDays className="mr-1 h-4 w-4" />
                       {edu.duration}
                     </div>
-                    <Badge variant="outline">{edu.grade}</Badge>
+                    {edu.degree === "Bachelor of Engineering" &&
+                    (<Badge variant="outline">{edu.grade}</Badge>)}
                   </div>
                 </CardContent>
               </Card>
