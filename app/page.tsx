@@ -200,7 +200,7 @@ export default function Portfolio() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
                 <div className="relative">
                   <Image
-                    src="..\profile_picture.png?height=200&width=200"
+                    src="..\profile_picture.jpeg?height=200&width=200"
                     alt="Sanketh Sequeira"
                     width={200}
                     height={200}
