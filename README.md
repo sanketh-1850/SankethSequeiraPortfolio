@@ -1,4 +1,4 @@
-# Portfolio Website
+# Sanketh Sequeira's Portfolio
 
 This is my personal portfolio website built with **Next.js**, showcasing my work, experience, and education.  
 The site is deployed on [Vercel](https://vercel.com/).
