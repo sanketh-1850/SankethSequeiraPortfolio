@@ -9,8 +9,8 @@ The site is deployed on [Vercel](https://vercel.com/).
 
 ### 1️ Clone the repository
 ```bash
-git clone https://github.com/yourusername/your-portfolio-repo.git
-cd your-portfolio-repo
+git clone https://github.com/sanketh-1850/SankethSequeiraPortfolio.git
+cd SankethSequeiraPortfolio
 ```
 
 ### 2️ Install dependencies
