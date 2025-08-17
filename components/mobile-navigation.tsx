@@ -24,6 +24,16 @@ export function MobileNavigation() {
     setIsOpen(false)
   }
 
+  const handleHomeClick = (e: React.MouseEvent) => {
+    e.preventDefault()
+    setIsOpen(false)
+    // Smooth scroll to top
+    window.scrollTo({ 
+      top: 0, 
+      behavior: 'smooth' 
+    })
+  }
+
   return (
     <div className="flex items-center justify-between w-full">
       {/* Hamburger Menu */}
@@ -52,21 +62,21 @@ export function MobileNavigation() {
       </Sheet>
 
       {/* Profile Image as Home Button */}
-      <Link href="#" className="block">
-        <div className="relative group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-50 group-hover:opacity-75 transition duration-300"></div>
-          <div className="relative">
-            <Image
-              src="/profile_picture.jpeg"
-              alt="Sanketh Sequeira"
-              width={40}
-              height={40}
-              priority
-              className="rounded-full border-2 border-background shadow-lg transition-transform duration-300 group-hover:scale-105"
-            />
+      <button onClick={handleHomeClick} className="block">
+          <div className="relative group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-50 group-hover:opacity-75 transition duration-300"></div>
+            <div className="relative">
+              <Image
+                src="../profile_picture.jpeg"
+                alt="Sanketh Sequeira"
+                width={40}
+                height={40}
+                priority
+                className="rounded-full border-2 border-background shadow-lg transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
           </div>
-        </div>
-      </Link>
+        </button>
     </div>
   )
 }
