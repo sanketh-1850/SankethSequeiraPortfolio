@@ -20,18 +20,30 @@ const navigationItems = [
 export function MobileNavigation() {
   const [isOpen, setIsOpen] = React.useState(false)
 
-  const handleLinkClick = () => {
-    setIsOpen(false)
-  }
+    const handleLinkClick = (href: string) => {
+        setIsOpen(false)
+        // Add a small delay to allow the sheet to close before scrolling
+        setTimeout(() => {
+        const element = document.querySelector(href)
+        if (element) {
+            element.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+            })
+        }
+        }, 300) // Match the sheet animation duration
+    }
 
-  const handleHomeClick = (e: React.MouseEvent) => {
+  const handleHomeClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault()
     setIsOpen(false)
     // Smooth scroll to top
-    window.scrollTo({ 
-      top: 0, 
-      behavior: 'smooth' 
-    })
+    setTimeout(() => {
+      window.scrollTo({ 
+        top: 0, 
+        behavior: 'smooth' 
+      })
+    }, 300)
   }
 
   return (
@@ -48,14 +60,13 @@ export function MobileNavigation() {
           <div className="flex flex-col space-y-4 mt-8">
             <h2 className="text-lg font-semibold mb-4">Sanketh Sequeira</h2>
             {navigationItems.map((item) => (
-              <Link
+              <button
                 key={item.href}
-                href={item.href}
-                onClick={handleLinkClick}
-                className="block px-4 py-2 text-lg font-medium text-foreground hover:text-foreground/80 hover:bg-accent rounded-md transition-colors"
+                onClick={() => handleLinkClick(item.href)}
+                className="block w-full text-left px-4 py-2 text-lg font-medium text-foreground hover:text-foreground/80 hover:bg-accent rounded-md transition-colors"
               >
                 {item.label}
-              </Link>
+              </button>
             ))}
           </div>
         </SheetContent>
