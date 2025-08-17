@@ -12,6 +12,7 @@ import { ExperienceSection } from "@/components/experience-section"
 import { AnimatedText } from "@/components/animated-text"
 import { FloatingElements } from "@/components/floating-elements"
 import { ScrollProgress } from "@/components/scroll-progress"
+import { MobileNavigation } from "@/components/mobile-navigation"
 
 export default function Portfolio() {
   const [mounted, setMounted] = useState(false)
@@ -149,7 +150,8 @@ export default function Portfolio() {
           {/* Navigation */}
           <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="container flex h-14 items-center justify-center">
-              <nav className="flex items-center space-x-6 text-sm font-medium">
+              {/* Desktop Navigation */}
+              <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
                 <Link
                   href="#about"
                   className="transition-colors hover:text-foreground/80 hover:scale-105 transform duration-200"
@@ -187,6 +189,10 @@ export default function Portfolio() {
                   Contact
                 </Link>
               </nav>
+              {/* Mobile Navigation */}
+              <div className="md:hidden w-full px-4">
+                <MobileNavigation />
+              </div>
             </div>
           </nav>
 
@@ -204,6 +210,7 @@ export default function Portfolio() {
                     alt="Sanketh Sequeira"
                     width={200}
                     height={200}
+                    priority
                     className="rounded-full border-4 border-background shadow-2xl transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
