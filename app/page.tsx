@@ -280,7 +280,7 @@ export default function Portfolio() {
                   className="opacity-0 animate-fade-in-up"
                   style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
                 >
-                  I'm an incoming Master's student in Computer Science at the University of Illinois Chicago. I recently completed my undergraduate studies in Information Science and Engineering at Global Academy of Technology with a CGPA of 9.02. As a Software Engineering Intern at KreedaLoka, I worked on ChessEra, where I designed and developed an arena pairing mode using Java, C#, and Unity2D, along with real-time leaderboard updates and game object mechanics.
+                  I'm a Master's student majoring in Computer Science at the University of Illinois Chicago. I recently completed my undergraduate studies in Information Science and Engineering at Global Academy of Technology with a CGPA of 9.02. As a Software Engineering Intern at KreedaLoka, I worked on ChessEra, where I designed and developed an arena pairing mode using Java, C#, and Unity2D, along with real-time leaderboard updates and game object mechanics.
                 </p>
                 <p
                   className="opacity-0 animate-fade-in-up"
