@@ -448,17 +448,35 @@ export default function Portfolio() {
                 together!
               </p>
               <div className="mt-8 flex justify-center space-x-4">
-                <Button size="lg" asChild className="hover:scale-105 transition-transform duration-200">
-                  <Link href="mailto:sankethsequeira.work@gmail.com">
+                <Button
+                  size="lg"
+                  asChild
+                  className="hover:scale-105 transition-transform duration-200"
+                >
+                  <a
+                    href="mailto:sankethsequeira.work@gmail.com"
+                    className="flex items-center"
+                  >
                     <Mail className="mr-2 h-5 w-5" />
                     Send Email
-                  </Link>
+                  </a>
                 </Button>
-                <Button variant="outline" size="lg" asChild className="hover:scale-105 transition-transform duration-200">
-                  <Link href="https://www.linkedin.com/in/sanketh-sequeira-65436422b/">
+
+                <Button
+                  variant="outline"
+                  size="lg"
+                  asChild
+                  className="hover:scale-105 transition-transform duration-200"
+                >
+                  <a
+                    href="https://www.linkedin.com/in/sanketh-sequeira-65436422b/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center"
+                  >
                     <Linkedin className="mr-2 h-5 w-5" />
                     LinkedIn
-                  </Link>
+                  </a>
                 </Button>
               </div>
             </div>
