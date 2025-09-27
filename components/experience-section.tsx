@@ -16,7 +16,7 @@ export function ExperienceSection() {
         "Developed comprehensive pairing system for multiplayer gaming experience",
         "Stored, managed and retrieved user information for pairing using SQL",
       ],
-      technologies: ["Java", "C#", "Unity2D", "Game Development", "Real-time Systems"],
+      technologies: ["Java", "C#", "Unity2D", "Game Development", "Real-time Systems", "SQL"],
     },
   ]
 
