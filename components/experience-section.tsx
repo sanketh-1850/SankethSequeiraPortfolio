@@ -14,6 +14,7 @@ export function ExperienceSection() {
         "Designed and developed an arena pairing mode for ChessEra using Java, C#, and Unity2D",
         "Designed the game objects and implemented real-time leaderboard updates",
         "Developed comprehensive pairing system for multiplayer gaming experience",
+        "Stored, managed and retrieved user information for pairing using SQL",
       ],
       technologies: ["Java", "C#", "Unity2D", "Game Development", "Real-time Systems"],
     },
