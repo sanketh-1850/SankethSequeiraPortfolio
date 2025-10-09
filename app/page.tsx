@@ -99,7 +99,7 @@ export default function Portfolio() {
     },
     {
       category: "Libraries & Frameworks",
-      technologies: ["Scikit-Learn", "Pandas", "Numpy", "Matplotlib", "Unity2D"],
+      technologies: ["Scikit-Learn", "Pandas", "Numpy", "Matplotlib", "Unity2D", "Keras"],
     },
     {
       category: "Tools & Technologies",

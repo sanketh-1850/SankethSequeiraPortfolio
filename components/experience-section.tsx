@@ -12,6 +12,7 @@ export function ExperienceSection() {
       description: "ChessEra: Multi-Platform game client and server development.",
       achievements: [
         "Designed and developed an arena pairing mode for ChessEra using Java, C#, and Unity2D",
+        "Drafted product specifications document.",
         "Designed the game objects and implemented real-time leaderboard updates",
         "Developed comprehensive pairing system for multiplayer gaming experience",
         "Stored, managed and retrieved user information for pairing using SQL",
