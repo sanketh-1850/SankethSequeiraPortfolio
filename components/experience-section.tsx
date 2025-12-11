@@ -14,7 +14,7 @@ export function ExperienceSection() {
         "Researching, designing, and developing .NET web features and SQL database components to support ongoing projects.",
         "Maintaining and improving the existing multi-platform websites and applications through fixes and feature improvements",
       ],
-      technologies: ["Java", "C#", "Unity2D", "Game Development", "Real-time Systems", "SQL"],
+      technologies: [".Net", "C#", "Web Development", "SQL"],
     },
     {
       title: "Software Engineer Intern",
