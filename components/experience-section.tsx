@@ -9,7 +9,7 @@ export function ExperienceSection() {
       company: "UIC - School Of Public Health",
       location: "Chicago, Illinois, USA",
       duration: "December 2025 - Present",
-      description: "",
+      description: "Web Application Development and Database Management.",
       achievements: [
         "Researching, designing, and developing .NET web features and SQL database components to support ongoing projects.",
         "Maintaining and improving the existing multi-platform websites and applications through fixes and feature improvements",
