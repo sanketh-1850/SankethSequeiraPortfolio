@@ -103,7 +103,7 @@ export default function Portfolio() {
     },
     {
       category: "Tools & Technologies",
-      technologies: ["Git", "GitHub", "MySQL", "VS Code", "Eclipse", "Google Colab", "Jira"],
+      technologies: ["Git", "GitHub", "MySQL", ".NET", "VS Code", "Eclipse", "Google Colab", "Jira"],
     },
   ]
 

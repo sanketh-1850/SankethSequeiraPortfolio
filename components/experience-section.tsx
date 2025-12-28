@@ -11,7 +11,7 @@ export function ExperienceSection() {
       duration: "December 2025 - Present",
       description: "Web Application Development and Database Management.",
       achievements: [
-        "Researching, designing, and developing .NET web features and SQL database components to support ongoing projects.",
+        "Researching, designing, and developing ASP.NET(C#) web features and SQL database components to support ongoing projects.",
         "Maintaining and improving the existing multi-platform websites and applications through fixes and feature improvements",
       ],
       technologies: [".Net", "C#", "Web Development", "SQL"],
@@ -29,7 +29,7 @@ export function ExperienceSection() {
         "Developed comprehensive pairing system for multiplayer gaming experience",
         "Stored, managed and retrieved user information for pairing using SQL",
       ],
-      technologies: ["Java", "C#", "Unity2D", "Game Development", "Real-time Systems", "SQL"],
+      technologies: ["Java", "C#", "Unity2D", "Game Development", "Real-time Systems", "SQL", ".NET"],
     },
   ]
 
