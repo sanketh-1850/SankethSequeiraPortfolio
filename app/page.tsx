@@ -25,6 +25,28 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "OBDPlus",
+      description:
+        "A decentralized inventory management system built with blockchain technology, winning 1st place at NITK Suratkal blockchain workshop hackathon.",
+      image: "..\\OBDPlus.png?height=200&width=300",
+      technologies: ["Python", "LLM", "PostgreSQL", "FastAPI", "PyQt"],
+      github: "https://github.com/sanketh-1850/OBDPlus",
+      live: "#",
+      date: "December 2025",
+      id: "blockchain",
+    },
+    {
+      title: "DocBot",
+      description:
+        "An AI-powered developer assistant that uses LLMs and Retrieval-Augmented Generation (RAG) to answer natural-language questions across documentation for 10 popular Python libraries.",
+      image: "..\\DocBot.png?height=200&width=300",
+      technologies: ["Python", "RAG", "LLM", "PostgreSQL"],
+      github: "https://github.com/UIC-CS480-Fall2025/dash",
+      live: "https://youtu.be/7oJXFWkFhcs",
+      date: "September 2025",
+      id: "Video Demo",
+    },
+    {
       title: "DataGuard",
       description:
         "An NER-based application that masks personal and medical information using regex, spaCy, and SciSpacy, with a Gradio UI for input and chatbot interaction.",
@@ -56,28 +78,6 @@ export default function Portfolio() {
       live: "https://www.loom.com/share/6d77b8b9e26c410e8e0b837f31eff0ed?t=0",
       date: "February 2024",
       id: "Video Demo",
-    },
-    {
-      title: "Panic Shield",
-      description:
-        "A smart watch app that detects and responds to panic attacks using machine learning, achieving 91.1% accuracy with Python and Swift.",
-      image: "..\\PanicShield.png?height=200&width=300",
-      technologies: ["Python", "Swift", "SKLearn", "Numpy", "WatchOS"],
-      github: "https://github.com/geekguyadarsh/panic-detection-svm",
-      live: "https://youtu.be/PHgSPP1H-j8",
-      date: "October 2023",
-      id: "Video Demo",
-    },
-    {
-      title: "Blockchain Inventory Management",
-      description:
-        "A decentralized inventory management system built with blockchain technology, winning 1st place at NITK Suratkal blockchain workshop hackathon.",
-      image: "..\\BlockChain.png?height=200&width=300",
-      technologies: ["HTML", "JavaScript", "Solidity", "Blockchain"],
-      github: "https://github.com/geekguyadarsh/blockchainInventoryManagement",
-      live: "#",
-      date: "June 2023",
-      id: "blockchain",
     },
     {
       title: "KCET College Predictor",
@@ -129,7 +129,7 @@ export default function Portfolio() {
   const handleDownloadResume = () => {
     // Create a temporary link to download the resume
     const link = document.createElement("a")
-    link.href = "..\\sanketh_resume.pdf" // You'll need to add your actual resume file
+    link.href = "..\\sanketh_resume.pdf" // Path to your resume file
     link.download = "Sanketh_Sequeira_Resume.pdf"
     document.body.appendChild(link)
     link.click()

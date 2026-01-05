@@ -14,7 +14,7 @@ export function ExperienceSection() {
         "Researching, designing, and developing ASP.NET(C#) web features and SQL database components to support ongoing projects.",
         "Maintaining and improving the existing multi-platform websites and applications through fixes and feature improvements",
       ],
-      technologies: [".Net", "C#", "Web Development", "SQL"],
+      technologies: ["ASP.NET", ".Net", "C#", "Web Development", "SQL"],
     },
     {
       title: "Software Engineer Intern",
@@ -40,7 +40,7 @@ export function ExperienceSection() {
       institution: "University of Illinois at Chicago",
       location: "Chicago, USA",
       duration: "August 2025 - May 2027",
-      grade: "CGPA: 9.02/10",
+      grade: "CGPA: 4.0/4.0",
     },
     {
       degree: "Bachelor of Engineering",
@@ -129,8 +129,7 @@ export function ExperienceSection() {
                       <CalendarDays className="mr-1 h-4 w-4" />
                       {edu.duration}
                     </div>
-                    {edu.degree === "Bachelor of Engineering" &&
-                    (<Badge variant="outline">{edu.grade}</Badge>)}
+                    <Badge variant="outline">{edu.grade}</Badge>
                   </div>
                 </CardContent>
               </Card>
