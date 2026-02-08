@@ -27,13 +27,13 @@ export default function Portfolio() {
     {
       title: "OBDPlus",
       description:
-        "A decentralized inventory management system built with blockchain technology, winning 1st place at NITK Suratkal blockchain workshop hackathon.",
+        "A cloud-hosted, AI-powered OBD-II diagnostic system that interprets vehicle fault codes using microservices, Docker, and AWS.",
       image: "..\\OBDPlus.png?height=200&width=300",
-      technologies: ["Python", "LLM", "PostgreSQL", "FastAPI", "PyQt"],
+      technologies: ["Python", "LLM", "PostgreSQL", "FastAPI", "PyQt", "Docker", "AWS", "Microservices"],
       github: "https://github.com/sanketh-1850/OBDPlus",
-      live: "#",
+      live: "https://youtu.be/acSGX-IuhRI",
       date: "December 2025",
-      id: "blockchain",
+      id: "Video Demo",
     },
     {
       title: "DocBot",
