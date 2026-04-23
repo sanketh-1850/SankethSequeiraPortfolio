@@ -5,7 +5,7 @@ import { CalendarDays, MapPin } from "lucide-react"
 export function ExperienceSection() {
   const experiences = [
     {
-      title: "Computer Specialist I",
+      title: "Full Stack Developer",
       company: "UIC - School Of Public Health",
       location: "Chicago, Illinois, USA",
       duration: "December 2025 - Present",
