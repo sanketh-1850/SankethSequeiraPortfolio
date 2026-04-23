@@ -51,7 +51,7 @@ export function ExperienceSection() {
       institution: "Global Academy of Technology",
       location: "Bangalore, India",
       duration: "December 2021 - July 2025",
-      grade: "CGPA: 9.02/10",
+      grade: "CGPA: 3.61/4.0",
     },
   ]
 
