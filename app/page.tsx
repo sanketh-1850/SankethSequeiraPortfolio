@@ -25,6 +25,17 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "TraceFix",
+      description:
+        "A self-hosted Agent-as-a-Judge system with LangGraph and Langfuse to diagnose ReAct agent failures from traces, tool calls, latency, token usage, and failure history.",
+      image: "..\\Default_project.png?height=200&width=300",
+      technologies: ["Python", "LangGraph", "Langfuse", "LLM", "PostgreSQL", "Agentic AI"],
+      github: "https://github.com/sanketh-1850/TraceFix",
+      live: "#",
+      date: "December 2025",
+      id: "Agent-as-a-Judge",
+    },
+    {
       title: "OBDPlus",
       description:
         "A cloud-hosted, AI-powered OBD-II diagnostic system that interprets vehicle fault codes using microservices, Docker, and AWS.",
