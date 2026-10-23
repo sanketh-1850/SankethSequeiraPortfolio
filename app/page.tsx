@@ -365,7 +365,7 @@ export default function Portfolio() {
                             Code
                           </Link>
                           </Button>
-                          {project.id !== "blockchain" && project.live && (
+                          {project.id !== "blockchain" && project.id !== "Agent-as-a-Judge" && project.live && (
                           <Button size="sm" asChild className="hover:scale-105 transition-transform duration-200">
                             <Link href={project.live}>
                               <ExternalLink className="mr-2 h-4 w-4" />
